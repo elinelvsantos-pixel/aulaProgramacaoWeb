@@ -10,7 +10,11 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
+<<<<<<< HEAD
     color: #131010;
+=======
+    color: #333;
+>>>>>>> b7c609e2247b6f04e4f8a15fb94d1f0d3355f90b
 }
 
 
@@ -18,9 +22,15 @@ body {
    Header e Navegação
    ========================== */
 header {
+<<<<<<< HEAD
     background: linear-gradient(135deg, #a2b119 0%, #7c6420 100%);
     color: white;
     padding: 1rem 0;
+=======
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1rem 0;/*16px*/
+>>>>>>> b7c609e2247b6f04e4f8a15fb94d1f0d3355f90b
     position: fixed;
     width: 100%;
     top: 0;
@@ -35,7 +45,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
     padding: 0 2rem;
+=======
+    padding: 0 2rem;/*32px*/
+>>>>>>> b7c609e2247b6f04e4f8a15fb94d1f0d3355f90b
 }
 
 
@@ -135,8 +149,13 @@ nav a {
 
 
 .btn-primary, .btn-secondary {
+<<<<<<< HEAD
     flex: 1 1 200px; 
     max-width: 250px; 
+=======
+    flex: 1 1 200px; /* largura mínima 200px, cresce se houver espaço */
+    max-width: 250px; /* não fique muito largo */
+>>>>>>> b7c609e2247b6f04e4f8a15fb94d1f0d3355f90b
     padding: 1rem 2.5rem;
     font-size: 1.2rem;
     font-weight: bold;
